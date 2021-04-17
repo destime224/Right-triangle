@@ -26,9 +26,13 @@ class Triangle:
 
     def __repr__(self):
         return f"""sides:
-leg1 = {self.__leg1}
-leg2 = {self.__leg2}                                       hypotenuse = {self.__hyp}                                  angles:                                                    a1 = {self.__a1}
-a2 = {self.__a2}                                           a3 = {self.__a3}"""
+        leg1 = {self.__leg1}
+leg2 = {self.__leg2}
+hypotenuse = {self.__hyp}
+angles:
+a1 = {self.__a1}
+a2 = {self.__a2}
+a3 = {self.__a3}"""
 
     @property
     def size(self):
