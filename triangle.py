@@ -26,7 +26,7 @@ class Triangle:
 
     def __repr__(self):
         return f"""sides:
-        leg1 = {self.__leg1}
+leg1 = {self.__leg1}
 leg2 = {self.__leg2}
 hypotenuse = {self.__hyp}
 angles:
