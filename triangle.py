@@ -38,7 +38,7 @@ class Triangle:
             self.__hyp = float(hyp)
         # there is right angle in right triangle
         self.__a2 = 90.0
-        # carculate angle tan(a) = leg1/leg2 => a = atan(leg1/leg2 (without radians)
+        # carculate angle tan(a) = leg1/leg2 => a = atan(leg1/leg2) (without radians)
         self.__a1 = round(atan(self.__leg1/self.__leg2)*180/pi, 2)
         self.__a3 = float(90 - self.__a1)
     
